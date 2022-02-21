@@ -29,7 +29,6 @@ public class SentinelController {
      * blockHandler = "" 使用sentinel进行不同规则控制时的默认处理方案
      * fallback = "" 自定义业务出错时默认处理方案
      * defaultFallback = "" 指定一个业务错误时默认方案
-     *
      * @return
      */
     @RequestMapping("/fusing/{id}")
