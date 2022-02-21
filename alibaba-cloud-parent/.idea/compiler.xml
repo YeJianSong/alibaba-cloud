@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alibaba.cloud-common" />
+        <module name="alibaba-cloud-products" />
+        <module name="alibaba-cloud-users" />
+        <module name="alibaba-cloud-sentinel" />
+        <module name="alibaba-cloud-nacos" />
+        <module name="alibaba-cloud-product" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba-cloud-config" target="1.8" />
+      <module name="alibaba-cloud-nacos" target="1.8" />
+      <module name="alibaba-cloud-parent" target="1.8" />
+      <module name="alibaba-cloud-product" target="1.8" />
+      <module name="alibaba-cloud-products" target="1.8" />
+      <module name="alibaba-cloud-sentinel" target="1.8" />
+      <module name="alibaba-cloud-users" target="1.8" />
+      <module name="alibaba.cloud-common" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alibaba-cloud-config" options="-parameters" />
+      <module name="alibaba-cloud-nacos" options="-parameters" />
+      <module name="alibaba-cloud-parent" options="-parameters" />
+      <module name="alibaba-cloud-product" options="-parameters" />
+      <module name="alibaba-cloud-products" options="-parameters" />
+      <module name="alibaba-cloud-sentinel" options="-parameters" />
+      <module name="alibaba-cloud-users" options="-parameters" />
+      <module name="alibaba.cloud-common" options="-parameters" />
+    </option>
+  </component>
+</project>

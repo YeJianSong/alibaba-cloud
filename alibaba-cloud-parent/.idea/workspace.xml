@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="961a77d5-7d6b-4270-8a11-5d0e3f8ad7f1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\devTools\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../devTools/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\devTools\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25H00oThvQTjGNzcY2uIizQvlda" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/alibaba-cloud-sentinel/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.alibaba.cloud.products.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-sentinel\src\main\resources" />
+      <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-config\src\main\resources" />
+      <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-users\src\main\resources" />
+      <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-products\src\main\resources" />
+      <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-nacos\src\main\java\com\alibaba\cloud\nacos" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SentinelApplication">
+    <configuration name="NacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alibaba-cloud-nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.cloud.nacos.NacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-cloud-products" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.cloud.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.cloud.products.ProductsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-cloud-sentinel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.cloud.sentinel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.cloud.sentinel.SentinelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-cloud-users" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.cloud.users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.cloud.users.UsersApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.NacosApplication" />
+      <item itemvalue="Spring Boot.ProductsApplication" />
+      <item itemvalue="Spring Boot.UsersApplication" />
+      <item itemvalue="Spring Boot.SentinelApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SentinelApplication" />
+        <item itemvalue="Spring Boot.UsersApplication" />
+        <item itemvalue="Spring Boot.ProductsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="961a77d5-7d6b-4270-8a11-5d0e3f8ad7f1" name="Default Changelist" comment="" />
+      <created>1645168483051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645168483051</updated>
+      <workItem from="1645168484347" duration="480000" />
+      <workItem from="1645168999692" duration="836000" />
+      <workItem from="1645169864343" duration="3745000" />
+      <workItem from="1645236199772" duration="5220000" />
+      <workItem from="1645422960983" duration="6617000" />
+      <workItem from="1645430226275" duration="4741000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="96" key="#Inspections" timestamp="1645171397391">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1645171397391" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1645432983302">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1645432983302" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645425700090">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1645425700090" />
+    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1645236487506">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1645236487506" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1645168513061">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1645168513061" />
+    <state width="1177" height="355" key="GridCell.Tab.0.bottom" timestamp="1645435456164">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1177" height="355" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
+    <state width="1177" height="355" key="GridCell.Tab.0.center" timestamp="1645435456163">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1177" height="355" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1645435456163" />
+    <state width="1177" height="355" key="GridCell.Tab.0.left" timestamp="1645435456163">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1177" height="355" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1645435456163" />
+    <state width="1177" height="355" key="GridCell.Tab.0.right" timestamp="1645435456164">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1177" height="355" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
+    <state width="1177" height="355" key="GridCell.Tab.1.bottom" timestamp="1645435456164">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1177" height="355" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
+    <state width="1177" height="355" key="GridCell.Tab.1.center" timestamp="1645435456164">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1177" height="355" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
+    <state width="1177" height="355" key="GridCell.Tab.1.left" timestamp="1645435456164">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1177" height="355" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
+    <state width="1177" height="355" key="GridCell.Tab.1.right" timestamp="1645435456164">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1177" height="355" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
+    <state width="1147" height="269" key="GridCell.Tab.2.bottom" timestamp="1645237957342">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1147" height="269" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1645237957342" />
+    <state width="1147" height="269" key="GridCell.Tab.2.center" timestamp="1645237957342">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1147" height="269" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1645237957342" />
+    <state width="1147" height="269" key="GridCell.Tab.2.left" timestamp="1645237957342">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1147" height="269" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1645237957342" />
+    <state width="1147" height="269" key="GridCell.Tab.2.right" timestamp="1645237957342">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1147" height="269" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1645237957342" />
+    <state x="270" y="62" key="SettingsEditor" timestamp="1645168514859">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1645168514859" />
+    <state x="178" y="78" key="new project wizard" timestamp="1645432533531">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="78" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1645432533531" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1645424465982">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1645424465982" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1645262868248">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1645262868248" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/controller/UsersController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+server:
+  port: 8805
+
+spring:
+  application:
+    name: PRODUCTS
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 121.43.225.84:8848

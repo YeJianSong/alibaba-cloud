@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alibaba-cloud-nacos/alibaba-cloud-nacos.iml" filepath="$PROJECT_DIR$/alibaba-cloud-nacos/alibaba-cloud-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/alibaba-cloud-parent.iml" filepath="$PROJECT_DIR$/.idea/alibaba-cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-cloud-products/alibaba-cloud-products.iml" filepath="$PROJECT_DIR$/alibaba-cloud-products/alibaba-cloud-products.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-cloud-sentinel/alibaba-cloud-sentinel.iml" filepath="$PROJECT_DIR$/alibaba-cloud-sentinel/alibaba-cloud-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-cloud-users/alibaba-cloud-users.iml" filepath="$PROJECT_DIR$/alibaba-cloud-users/alibaba-cloud-users.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba.cloud-common/alibaba.cloud-common.iml" filepath="$PROJECT_DIR$/alibaba.cloud-common/alibaba.cloud-common.iml" />
+    </modules>
+  </component>
+</project>

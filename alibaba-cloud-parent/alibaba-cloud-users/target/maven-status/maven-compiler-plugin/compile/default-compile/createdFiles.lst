@@ -1,0 +1,5 @@
+com\alibaba\cloud\users\controller\UsersController.class
+com\alibaba\cloud\users\UsersApplication.class
+com\alibaba\cloud\users\api\ProductClient.class
+com\alibaba\cloud\users\service\impl\UsersServiceImpl.class
+com\alibaba\cloud\users\service\UsersService.class
