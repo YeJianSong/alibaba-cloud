@@ -1,8 +1,10 @@
 package com.alibaba.cloud.users.service.impl;
 
 import com.alibaba.cloud.users.service.UsersService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+@Slf4j
 @Service
 public class UsersServiceImpl implements UsersService{
 
@@ -25,11 +27,10 @@ public class UsersServiceImpl implements UsersService{
                         e.printStackTrace();
                     }
                     String msg = Thread.currentThread().getName() + " 售出第   " + (this.no - this.total) + "张票,"+ name +"抢票成功";
-                    System.out.println(msg);
+                    log.info("开始卖票:{}",msg);
                     this.total --;
                 }else {
-                    System.out.println("票已售完，请下次再来！");
-//                    System.exit(0);
+                    log.info("票已售完，请下次再来！");
                 }
             }
         }
