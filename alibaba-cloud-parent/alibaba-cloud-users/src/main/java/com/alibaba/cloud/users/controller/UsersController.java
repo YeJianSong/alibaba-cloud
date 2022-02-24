@@ -49,6 +49,7 @@ public class UsersController {
     @Autowired
     private BusinessThreadPoolManager threadPoolManager;
 
+
     @Value("${server.port}")
     private int port;
 
@@ -64,19 +65,20 @@ public class UsersController {
     }
 
 
-    @GetMapping("/rest/{id}")
-    public String rest(HttpServletRequest request, @PathVariable("id") Integer id) {
-        ResponseEntity<String> result = this.restTemplate.exchange( String.format("http://localhost:8805/products/product/%s", id),
-                HttpMethod.GET, null, String.class);
-            return "使用restTemplate远程调用商品服务成功..........获取到返回结果"+result.getBody();
-    }
-
     @GetMapping("/ticket/{name}")
     public String ticket(HttpServletRequest request, @PathVariable("name") String name) {
         String randomName = name + ":" + UUID.randomUUID().toString();
-        return  usersService.ticket(randomName);
+        usersService.ticket(randomName);
+        return randomName + "抢票成功！！！";
     }
 
+
+    @GetMapping("/rest/{id}")
+    public String rest(HttpServletRequest request, @PathVariable("id") Integer id) {
+        ResponseEntity<String> result = this.restTemplate.exchange(String.format("http://localhost:8805/products/product/%s", id),
+                HttpMethod.GET, null, String.class);
+        return "使用restTemplate远程调用商品服务成功..........获取到返回结果" + result.getBody();
+    }
 
     /**
      * 测试模拟下单请求 入口

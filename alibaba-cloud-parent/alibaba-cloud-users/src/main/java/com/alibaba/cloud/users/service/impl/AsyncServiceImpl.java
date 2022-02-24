@@ -17,7 +17,10 @@ public class AsyncServiceImpl implements AsyncService {
     @Override
     public void executeAsync() {
         log.info("start executeAsync");
-        log.info("当前运行的线程名称：{}", Thread.currentThread().getName());
+        // 多线程执行业务操作99999999L
+        for (int i = 0; i < 99999; i++) {
+            log.info("当前运行的线程名称：{}", Thread.currentThread().getName());
+        }
         log.info("end executeAsync");
     }
 }
