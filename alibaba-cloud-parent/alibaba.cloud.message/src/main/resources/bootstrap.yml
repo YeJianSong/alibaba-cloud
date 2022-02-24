@@ -1,0 +1,16 @@
+server:
+  port: 8007
+
+spring:
+  application:
+    name: MESSAGE
+  cloud:
+    nacos:
+      server-addr: 121.43.225.84:8848
+      discovery:
+        server-addr: 121.43.225.84:8848
+#  rabbitmq:
+#    host: 121.43.225.84
+#    port: 5672
+#    username: admin
+#    password: admin

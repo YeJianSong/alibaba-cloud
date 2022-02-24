@@ -10,6 +10,7 @@
         <module>alibaba-cloud-users</module>
         <module>alibaba-cloud-sentinel</module>
         <module>alibaba-cloud-gateway</module>
+        <module>alibaba.cloud.message</module>
     </modules>
     <!--继承springboot父项目-->
     <parent>
