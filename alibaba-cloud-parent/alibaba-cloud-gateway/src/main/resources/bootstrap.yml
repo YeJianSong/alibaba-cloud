@@ -1,0 +1,11 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    nacos:
+      server-addr: 121.43.225.84:8848
+      discovery:
+        server-addr: 121.43.225.84:8848

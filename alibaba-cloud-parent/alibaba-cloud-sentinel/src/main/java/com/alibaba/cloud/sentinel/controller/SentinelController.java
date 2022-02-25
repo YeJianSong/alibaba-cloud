@@ -18,10 +18,10 @@ import javax.servlet.http.HttpServletResponse;
 @RequestMapping("/sentinel")
 public class SentinelController {
 
-    @RequestMapping("/demo")
-    public String demo() {
-        return "sentinel - demo ok!!!";
-    }
+//    @RequestMapping("/demo")
+//    public String demo() {
+//        return "sentinel - demo ok!!!";
+//    }
 
 
     /**
@@ -31,14 +31,11 @@ public class SentinelController {
      * defaultFallback = "" 指定一个业务错误时默认方案
      * @return
      */
-    @RequestMapping("/fusing/{id}")
-    //blockHandler = "" 使用sentinel进行不同规则控制时的默认处理方案
-    //fallback = "" 自定义业务出错时默认处理方案
-    //defaultFallback = "" 指定一个业务错误时默认方案
+    @RequestMapping("/demo/{id}")
     @SentinelResource(value = "aaa", blockHandler = "blockHandler", fallback = "fallCustomer", defaultFallback = "fall")
-    public String fusing(HttpServletRequest request, @PathVariable("id") Integer id) {
-        if (id == 2) throw new RuntimeException("id无效");
-        return "sentinel - demo ok!!!id=" + id;
+    public String demo(@PathVariable("id") Integer id) {
+        if (id < 0) throw new RuntimeException("id无效");
+        return "demo ok!!!id=" + id;
     }
 
 
@@ -67,5 +64,6 @@ public class SentinelController {
     public String test() {
         return "test ok!!!";
     }
+
 
 }
