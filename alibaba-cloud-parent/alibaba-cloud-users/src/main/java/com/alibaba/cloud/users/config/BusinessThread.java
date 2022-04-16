@@ -4,6 +4,12 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+/**
+ * @program: alibaba.cloud.products
+ * @description: TODO
+ * @author: JianSong Ye
+ * @create: 2022-04-10 15:28
+ **/
 @Slf4j
 @Component
 @Scope("prototype")//spring 多例

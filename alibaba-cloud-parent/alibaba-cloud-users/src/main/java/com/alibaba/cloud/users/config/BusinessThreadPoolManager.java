@@ -10,6 +10,12 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.concurrent.*;
 
+/**
+ * @program: alibaba.cloud.products
+ * @description: TODO
+ * @author: JianSong Ye
+ * @create: 2022-04-10 15:28
+ **/
 @Slf4j
 @Component
 public class BusinessThreadPoolManager implements BeanFactoryAware {

@@ -4,12 +4,11 @@ import com.alibaba.cloud.users.api.ProductClient;
 import com.alibaba.cloud.users.config.BusinessThreadPoolManager;
 import com.alibaba.cloud.users.service.AsyncService;
 import com.alibaba.cloud.users.service.UsersService;
-import feign.Param;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,10 +20,23 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Queue;
 import java.util.UUID;
 
+/**
+ * @program: alibaba.cloud.products
+ * @description: TODO
+ * @author: JianSong Ye
+ * @create: 2022-04-10 15:28
+ **/
 @Slf4j
 @RestController
+@RefreshScope
 @RequestMapping("/users")
 public class UsersController {
+
+    @Value("${server.port}")
+    private int port;
+
+    @Value("${constomer.username}")
+    private String username;
 
 
     /**
@@ -50,9 +62,6 @@ public class UsersController {
     private BusinessThreadPoolManager threadPoolManager;
 
 
-    @Value("${server.port}")
-    private int port;
-
     /**
      * 测试微服务之间的远程调用（openFeignClient）
      *
@@ -61,7 +70,7 @@ public class UsersController {
     @GetMapping("/invoke/{id}")
     public String invokeProduct(HttpServletRequest request, @PathVariable("id") Integer id) {
         String result = productClient.product(id);
-        return "调用用户服务成功.....使用openFeignClient远程调用products服务结果：{}" + result;
+        return "调用用户服务" + "(" + username + ")" + "成功,当前提供服务的端口为：" + port + ".....使用openFeignClient远程调用products服务结果：" + result;
     }
 
 

@@ -11,12 +11,18 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * @program: alibaba.cloud.products
+ * @description: TODO
+ * @author: JianSong Ye
+ * @create: 2022-04-10 15:28
+ **/
 @SpringBootApplication
 @EnableDiscoveryClient
 //开启Openfeign调用支持
 @EnableFeignClients
 //可配置多个  RibbonRuleConfig不能被@SpringBootApplication的@ComponentScan扫描到，所以把它放到上一层，否则就是全局配置的效果
-@RibbonClients(value = {@RibbonClient(name = "USERS",configuration = RibbonRuleConfig.class)})
+@RibbonClients(value = {@RibbonClient(name = "USERS", configuration = RibbonRuleConfig.class)})
 public class UsersApplication {
 
     public static void main(String[] args) {
@@ -25,6 +31,7 @@ public class UsersApplication {
 
     /**
      * 使用RestTemplate远程调用，必须new 一个RestTemplate并放入spring容器当中,否则启动时报错
+     *
      * @return
      */
     @Bean

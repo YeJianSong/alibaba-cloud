@@ -5,6 +5,12 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
+/**
+ * @program: alibaba.cloud.products
+ * @description: TODO
+ * @author: JianSong Ye
+ * @create: 2022-04-10 15:28
+ **/
 @Slf4j
 @Service
 public class AsyncServiceImpl implements AsyncService {
