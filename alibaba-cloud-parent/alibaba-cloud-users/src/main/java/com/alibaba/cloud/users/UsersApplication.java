@@ -13,16 +13,13 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @program: alibaba.cloud.products
- * @description: TODO
+ * @description: 用户服务
  * @author: JianSong Ye
  * @create: 2022-04-10 15:28
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
-//开启Openfeign调用支持
 @EnableFeignClients
-//可配置多个  RibbonRuleConfig不能被@SpringBootApplication的@ComponentScan扫描到，所以把它放到上一层，否则就是全局配置的效果
-@RibbonClients(value = {@RibbonClient(name = "USERS", configuration = RibbonRuleConfig.class)})
 public class UsersApplication {
 
     public static void main(String[] args) {

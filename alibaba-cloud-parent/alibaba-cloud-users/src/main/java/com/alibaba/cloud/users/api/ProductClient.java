@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author: JianSong Ye
  * @create: 2022-04-10 15:28
  **/
-@FeignClient("PRODUCTS")
+@FeignClient("service-product")
 public interface ProductClient {
 
-    @RequestMapping("/products/product/{id}")
+    @RequestMapping("/api/products/product/{id}")
     String product(@PathVariable("id") Integer id);
 }

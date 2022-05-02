@@ -19,243 +19,61 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="961a77d5-7d6b-4270-8a11-5d0e3f8ad7f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_45_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/alibaba.cloud.message.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/config/DirectRabbitConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/config/FanoutRabbitConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/config/ManualConfirmationReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/config/MessageListenerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/config/TopicRabbitConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/listener/DirectConsumerReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/listener/FanoutConsumerReceiverA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/listener/FanoutConsumerReceiverB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/listener/FanoutConsumerReceiverC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/listener/TopicConsumerManReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/consumer/listener/TopicConsumerWoManReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/provider/config/DirectRabbitProviderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/provider/config/FanoutRabbitProviderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/provider/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/provider/config/TopicRabbitProviderConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_datasource_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_circuitbreaker_sentinel_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_sentinel_2_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_annotation_aspectj_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_client_default_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_common_default_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_server_default_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webflux_adapter_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webmvc_adapter_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_android.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_android.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_10_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_10_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_10_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="961a77d5-7d6b-4270-8a11-5d0e3f8ad7f1" name="Default Changelist" comment="springboot整合MQ">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/response/ResponseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/response/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/BCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/ChineseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/RandomValueUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/java/com/alibaba/cloud/gateway/config/URLFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-common/alibaba-cloud-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-common/alibaba-cloud-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-gateway/alibaba-cloud-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/alibaba-cloud-gateway.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/java/com/alibaba/cloud/gateway/GateWayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/java/com/alibaba/cloud/gateway/GateWayApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/java/com/alibaba/cloud/gateway/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/java/com/alibaba/cloud/gateway/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/java/com/alibaba/cloud/nacos/NacosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/java/com/alibaba/cloud/nacos/NacosApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/java/com/alibaba/cloud/nacos/config/IClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/java/com/alibaba/cloud/nacos/config/IClientConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/java/com/alibaba/cloud/nacos/controller/NacosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/java/com/alibaba/cloud/nacos/controller/NacosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/NacosApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/NacosApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/config/IClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/config/IClientConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/controller/NacosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/controller/NacosController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/alibaba-cloud-products.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/alibaba-cloud-products.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/src/main/java/com/alibaba/cloud/products/ProductsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/src/main/java/com/alibaba/cloud/products/ProductsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/src/main/java/com/alibaba/cloud/products/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/src/main/java/com/alibaba/cloud/products/controller/ProductsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/com/alibaba/cloud/products/ProductsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/com/alibaba/cloud/products/ProductsApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/com/alibaba/cloud/products/controller/ProductsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/com/alibaba/cloud/products/controller/ProductsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/alibaba-cloud-sentinel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/alibaba-cloud-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/src/main/java/com/alibaba/cloud/sentinel/SentinelApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/src/main/java/com/alibaba/cloud/sentinel/controller/SentinelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/src/main/java/com/alibaba/cloud/sentinel/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/src/main/java/com/alibaba/cloud/sentinel/exception/SentinelUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/target/classes/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/target/classes/com/alibaba/cloud/sentinel/SentinelApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-sentinel/target/classes/com/alibaba/cloud/sentinel/controller/SentinelController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/alibaba-cloud-users.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/alibaba-cloud-users.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/UsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/UsersApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/api/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/api/ProductClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/config/BusinessThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/config/BusinessThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/config/BusinessThreadPoolManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/config/BusinessThreadPoolManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/config/RibbonRuleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/config/RibbonRuleConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/config/SpringAsyncConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/config/SpringAsyncConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/service/AsyncService.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/service/AsyncService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/service/UsersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/service/impl/AsyncServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/service/impl/AsyncServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/service/impl/UsersServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/UsersApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/UsersApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/api/ProductClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/api/ProductClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/service/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/service/UsersService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/service/impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/service/impl/UsersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba.cloud-common/alibaba.cloud-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-common/alibaba-cloud-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba.cloud-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba.cloud.message/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/MessageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/MessageApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/config/MQConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/alibaba.cloud.message.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba.cloud.message/alibaba.cloud.message.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/listener/MessageListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/resources/banner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,23 +130,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/alibaba.cloud.message" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/response" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
       <recent name="com.alibaba.cloud.message.provider.config" />
       <recent name="com.alibaba.cloud.products.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\alibaba-cloud\alibaba-cloud-parent\alibaba-cloud-common\src\main\java\response" />
+      <recent name="D:\workspace\alibaba-cloud\alibaba-cloud-parent\alibaba-cloud-common\src\main\java\utils" />
       <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-sentinel\src\main\resources" />
       <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-config\src\main\resources" />
       <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-users\src\main\resources" />
-      <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-products\src\main\resources" />
-      <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-nacos\src\main\java\com\alibaba\cloud\nacos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -338,20 +160,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosApplication">
-    <configuration name="UsersController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alibaba.cloud.users.controller.UsersController" />
-      <module name="alibaba-cloud-users" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alibaba.cloud.users.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="alibaba-cloud-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.cloud.gateway.GateWayApplication" />
@@ -400,7 +209,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UsersController" />
       <item itemvalue="Spring Boot.NacosApplication" />
       <item itemvalue="Spring Boot.GateWayApplication" />
       <item itemvalue="Spring Boot.MessageApplication" />
@@ -411,7 +219,6 @@
       <list>
         <item itemvalue="Spring Boot.UsersApplication" />
         <item itemvalue="Spring Boot.ProductsApplication" />
-        <item itemvalue="Application.UsersController" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +265,17 @@
       <workItem from="1649573624318" duration="514000" />
       <workItem from="1649574176374" duration="315000" />
       <workItem from="1649574732495" duration="8240000" />
+      <workItem from="1650088909041" duration="11941000" />
+      <workItem from="1651473982760" duration="10028000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot整合MQ">
+      <created>1650089133112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650089133112</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,6 +295,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="springboot整合MQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot整合MQ" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="96" key="#Inspections" timestamp="1649578215920">
@@ -488,87 +307,111 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="651" y="279" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1645772227598" />
-    <state x="249" y="0" key="#Project_Structure" timestamp="1649577213424">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1651474509222">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1649577213424" />
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645425700090">
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1651474509222" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651480793690">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1645425700090" />
-    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1649580751449">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1651480793690" />
+    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1651477807286">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1649580751449" />
-    <state x="249" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1649578140980">
+    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1651477807286" />
+    <state x="249" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1651477727722">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="249" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1649578140980" />
+    <state x="249" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1651477727722" />
+    <state x="510" y="284" width="516" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1651480482677">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="510" y="284" width="516" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1651480482677" />
+    <state x="478" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1651479749753">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="478" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1651479749753" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651480268677">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1651480268677" />
     <state width="474" height="466" key="DebuggerActiveHint" timestamp="1649581230862">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="474" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1649581230862" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1647340980477">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1650091616081">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1647340980477" />
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1645772108648" />
-    <state width="1224" height="280" key="GridCell.Tab.0.bottom" timestamp="1649582818587">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1650091616081" />
+    <state width="1193" height="382" key="GridCell.Tab.0.bottom" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1647253115434" />
+    <state width="1027" height="489" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708939" />
     <state width="1237" height="392" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1280.689@1920.0.1280.689" timestamp="1647422904810" />
-    <state width="1224" height="280" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1649582818587" />
-    <state width="1224" height="280" key="GridCell.Tab.0.center" timestamp="1649582818587">
+    <state width="1193" height="382" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.0.center" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1647253115434" />
+    <state width="1027" height="489" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708939" />
     <state width="1237" height="392" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1280.689@1920.0.1280.689" timestamp="1647422904810" />
-    <state width="1224" height="280" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1649582818587" />
-    <state width="1224" height="280" key="GridCell.Tab.0.left" timestamp="1649582818587">
+    <state width="1193" height="382" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.0.left" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1647253115433" />
+    <state width="1027" height="489" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708939" />
     <state width="1237" height="392" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1280.689@1920.0.1280.689" timestamp="1647422904810" />
-    <state width="1224" height="280" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1649582818587" />
-    <state width="1224" height="280" key="GridCell.Tab.0.right" timestamp="1649582818587">
+    <state width="1193" height="382" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.0.right" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="249" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1647253115434" />
+    <state width="1027" height="489" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708939" />
     <state width="1237" height="392" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1280.689@1920.0.1280.689" timestamp="1647422904810" />
-    <state width="1224" height="280" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1649582818587" />
-    <state width="1224" height="280" key="GridCell.Tab.1.bottom" timestamp="1649582818587">
+    <state width="1193" height="382" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.1.bottom" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1224" height="280" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1649582818587" />
-    <state width="1224" height="280" key="GridCell.Tab.1.center" timestamp="1649582818587">
+    <state width="1027" height="489" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708940" />
+    <state width="1193" height="382" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.1.center" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1224" height="280" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1649582818587" />
-    <state width="1224" height="280" key="GridCell.Tab.1.left" timestamp="1649582818587">
+    <state width="1027" height="489" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708940" />
+    <state width="1193" height="382" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.1.left" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1224" height="280" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1649582818587" />
-    <state width="1224" height="280" key="GridCell.Tab.1.right" timestamp="1649582818587">
+    <state width="1027" height="489" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708940" />
+    <state width="1193" height="382" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.1.right" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1224" height="280" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1649582818587" />
-    <state width="580" height="280" key="GridCell.Tab.2.bottom" timestamp="1649582776769">
+    <state width="1027" height="489" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708940" />
+    <state width="1193" height="382" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="964" height="303" key="GridCell.Tab.2.bottom" timestamp="1650094699324">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="964" height="303" key="GridCell.Tab.2.bottom/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650094699324" />
     <state width="580" height="280" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1649582776769" />
-    <state width="580" height="280" key="GridCell.Tab.2.center" timestamp="1649582776769">
+    <state width="964" height="303" key="GridCell.Tab.2.center" timestamp="1650094699324">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="964" height="303" key="GridCell.Tab.2.center/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650094699324" />
     <state width="580" height="280" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1649582776769" />
-    <state width="580" height="280" key="GridCell.Tab.2.left" timestamp="1649582776769">
+    <state width="964" height="303" key="GridCell.Tab.2.left" timestamp="1650094699324">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="964" height="303" key="GridCell.Tab.2.left/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650094699324" />
     <state width="580" height="280" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1649582776769" />
-    <state width="580" height="280" key="GridCell.Tab.2.right" timestamp="1649582776769">
+    <state width="964" height="303" key="GridCell.Tab.2.right" timestamp="1650094699324">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="964" height="303" key="GridCell.Tab.2.right/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650094699324" />
     <state width="580" height="280" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1649582776769" />
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1651480736495">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1651480736495" />
     <state x="429" y="121" key="NewModule_or_Project.wizard" timestamp="1645772114852">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -578,10 +421,14 @@
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1647341008100" />
     <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1649575681935" />
-    <state x="563" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645772042589">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1650089874912">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="563" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1645772042589" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1650089874912" />
+    <state x="563" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650089891769">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="563" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1650089891769" />
     <state x="525" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1649572175186">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -594,10 +441,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="177" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1649578813287" />
-    <state x="468" y="120" width="722" height="594" key="find.popup" timestamp="1649582996910">
+    <state x="468" y="120" width="722" height="594" key="find.popup" timestamp="1651482277722">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="468" y="120" width="722" height="594" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1649582996910" />
+    <state x="468" y="120" width="722" height="594" key="find.popup/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650093235772" />
+    <state x="468" y="120" width="722" height="594" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1651482277722" />
     <state x="501" y="129" key="git4idea.branch.GitSmartOperationDialog" timestamp="1645772184350">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -614,9 +462,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1645424465982" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1645262868248">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1650117366073">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650117366073" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1645262868248" />
   </component>
   <component name="XDebuggerManager">
@@ -629,7 +478,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/controller/MessageController.java</url>
-          <line>33</line>
+          <line>30</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -651,6 +500,11 @@
           <url>file://$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/provider/config/RabbitConfig.java</url>
           <line>29</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/controller/UsersController.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

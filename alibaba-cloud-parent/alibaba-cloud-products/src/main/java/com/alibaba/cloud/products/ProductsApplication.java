@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @program: alibaba.cloud.products
- * @description: TODO
+ * @description: 商品服务
  * @author: JianSong Ye
  * @create: 2022-04-10 15:28
  **/

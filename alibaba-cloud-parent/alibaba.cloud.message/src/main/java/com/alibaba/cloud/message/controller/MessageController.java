@@ -1,14 +1,11 @@
 package com.alibaba.cloud.message.controller;
 
-import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
@@ -17,12 +14,12 @@ import java.util.UUID;
 
 /**
  * @program: alibaba.cloud.message
- * @description: TODO
+ * @description: 模拟消息提供者（发送消息到MQ）
  * @author: JianSong Ye
  * @create: 2022-04-10 15:28
  **/
 @RestController
-@RequestMapping("/message")
+@RequestMapping("/api/message")
 public class MessageController {
 
     // 使用RabbitTemplate,这提供了接收/发送等等方法

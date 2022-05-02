@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 @RestController
 @RefreshScope
-@RequestMapping("/products")
+@RequestMapping("/api/products")
 public class ProductsController {
 
     @Value("${server.port}")

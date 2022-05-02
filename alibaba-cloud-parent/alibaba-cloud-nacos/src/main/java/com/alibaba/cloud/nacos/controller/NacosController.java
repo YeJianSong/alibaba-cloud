@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 @RestController
 @RefreshScope
-@RequestMapping("/nacos")
+@RequestMapping("/api/nacos")
 public class NacosController {
 
     @Value("${server.port}")

@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @program: alibaba.cloud.nacos
- * @description: TODO
+ * @description: NACOS配置/注册中心
  * @author: JianSong Ye
  * @create: 2022-04-10 15:28
  **/

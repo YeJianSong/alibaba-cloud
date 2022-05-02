@@ -29,7 +29,7 @@ import java.util.UUID;
 @Slf4j
 @RestController
 @RefreshScope
-@RequestMapping("/users")
+@RequestMapping("/api/users")
 public class UsersController {
 
     @Value("${server.port}")
