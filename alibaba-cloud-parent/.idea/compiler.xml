@@ -7,16 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="alibaba.cloud-common" />
+        <module name="alibaba-cloud-gateway" />
         <module name="alibaba-cloud-products" />
         <module name="alibaba-cloud-users" />
-        <module name="alibaba-cloud-sentinel" />
+        <module name="alibaba.cloud.message" />
         <module name="alibaba-cloud-nacos" />
         <module name="alibaba-cloud-product" />
+        <module name="alibaba-cloud-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba-cloud-common" target="1.8" />
       <module name="alibaba-cloud-config" target="1.8" />
+      <module name="alibaba-cloud-gateway" target="1.8" />
       <module name="alibaba-cloud-nacos" target="1.8" />
       <module name="alibaba-cloud-parent" target="1.8" />
       <module name="alibaba-cloud-product" target="1.8" />
@@ -24,11 +27,14 @@
       <module name="alibaba-cloud-sentinel" target="1.8" />
       <module name="alibaba-cloud-users" target="1.8" />
       <module name="alibaba.cloud-common" target="1.8" />
+      <module name="alibaba.cloud.message" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alibaba-cloud-common" options="-parameters" />
       <module name="alibaba-cloud-config" options="-parameters" />
+      <module name="alibaba-cloud-gateway" options="-parameters" />
       <module name="alibaba-cloud-nacos" options="-parameters" />
       <module name="alibaba-cloud-parent" options="-parameters" />
       <module name="alibaba-cloud-product" options="-parameters" />
@@ -36,6 +42,7 @@
       <module name="alibaba-cloud-sentinel" options="-parameters" />
       <module name="alibaba-cloud-users" options="-parameters" />
       <module name="alibaba.cloud-common" options="-parameters" />
+      <module name="alibaba.cloud.message" options="-parameters" />
     </option>
   </component>
 </project>

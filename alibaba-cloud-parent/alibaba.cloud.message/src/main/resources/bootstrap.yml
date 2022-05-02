@@ -1,16 +1,17 @@
-server:
-  port: 8007
-
 spring:
-  application:
-    name: MESSAGE
+  main:
+    allow-bean-definition-overriding: true
   cloud:
     nacos:
       server-addr: 121.43.225.84:8848
+
+      config:
+        namespace: 1315a425-a887-4d63-910e-78772cf87e28
+        group: DEFAULT_GROUP
+        name: message-dev
+        file-extension: yaml
       discovery:
-        server-addr: 121.43.225.84:8848
-#  rabbitmq:
-#    host: 121.43.225.84
-#    port: 5672
-#    username: admin
-#    password: admin
+        namespace: 1315a425-a887-4d63-910e-78772cf87e28
+        group: DEFAULT_GROUP
+        name: service-message
+        enabled: true

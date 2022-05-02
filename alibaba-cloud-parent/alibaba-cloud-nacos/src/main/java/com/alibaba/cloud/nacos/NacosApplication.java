@@ -4,6 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+/**
+ * @program: alibaba.cloud.nacos
+ * @description: NACOS配置/注册中心
+ * @author: JianSong Ye
+ * @create: 2022-04-10 15:28
+ **/
 @SpringBootApplication
 @EnableDiscoveryClient
 public class NacosApplication {

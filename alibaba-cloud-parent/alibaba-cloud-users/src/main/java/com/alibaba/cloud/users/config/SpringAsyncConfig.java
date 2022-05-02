@@ -8,9 +8,11 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import java.util.concurrent.Executor;
 
 /**
- *  @Async和@EnableAsync要结合使用，才能发挥异步的效果
- *  建议把所有带有@Async的方法都放到同一个类里，不然很容易出现循环依赖的问题
- */
+ * @program: alibaba.cloud.products
+ * @description: @Async和@EnableAsync要结合使用，才能发挥异步的效果 建议把所有带有@Async的方法都放到同一个类里，不然很容易出现循环依赖的问题
+ * @author: JianSong Ye
+ * @create: 2022-04-10 15:28
+ **/
 @Configuration
 @EnableAsync
 public class SpringAsyncConfig {

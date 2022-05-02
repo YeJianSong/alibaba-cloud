@@ -7,12 +7,15 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba.cloud.message/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/alibaba-cloud-config/pom.xml" />
         <option value="$PROJECT_DIR$/alibaba-cloud-product/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-cloud-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba.cloud-common/pom.xml" />
       </set>
     </option>
   </component>

@@ -1,11 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="961a77d5-7d6b-4270-8a11-5d0e3f8ad7f1" name="Default Changelist" comment="" />
+    <list default="true" id="961a77d5-7d6b-4270-8a11-5d0e3f8ad7f1" name="Default Changelist" comment="springboot整合MQ">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/response/ResponseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/response/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/BCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/ChineseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/RandomValueUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/utils/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/java/com/alibaba/cloud/gateway/config/URLFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-common/alibaba-cloud-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-common/alibaba-cloud-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-gateway/alibaba-cloud-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/alibaba-cloud-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/java/com/alibaba/cloud/gateway/GateWayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/java/com/alibaba/cloud/gateway/GateWayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/java/com/alibaba/cloud/gateway/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/java/com/alibaba/cloud/gateway/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/java/com/alibaba/cloud/nacos/NacosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/java/com/alibaba/cloud/nacos/NacosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/java/com/alibaba/cloud/nacos/controller/NacosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/java/com/alibaba/cloud/nacos/controller/NacosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/NacosApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/NacosApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/config/IClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/config/IClientConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/controller/NacosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-nacos/target/classes/com/alibaba/cloud/nacos/controller/NacosController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/src/main/java/com/alibaba/cloud/products/ProductsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/src/main/java/com/alibaba/cloud/products/ProductsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/src/main/java/com/alibaba/cloud/products/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/src/main/java/com/alibaba/cloud/products/controller/ProductsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/com/alibaba/cloud/products/ProductsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/com/alibaba/cloud/products/ProductsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/com/alibaba/cloud/products/controller/ProductsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-products/target/classes/com/alibaba/cloud/products/controller/ProductsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/alibaba-cloud-users.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/alibaba-cloud-users.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/UsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/UsersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/api/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/api/ProductClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/UsersApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/UsersApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/api/ProductClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/api/ProductClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/controller/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/service/impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-cloud-users/target/classes/com/alibaba/cloud/users/service/impl/UsersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/alibaba.cloud.message.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba.cloud.message/alibaba.cloud.message.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba.cloud.message/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba.cloud.message/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,46 +93,64 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\devTools\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../devTools/apache-maven-3.8.1" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../devTools/apache-maven-3.8.1" />
         <option name="userSettingsFile" value="D:\devTools\apache-maven-3.8.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="25H00oThvQTjGNzcY2uIizQvlda" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/alibaba-cloud-sentinel/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/alibaba-cloud-common/src/main/java/response" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+      <recent name="com.alibaba.cloud.message.provider.config" />
       <recent name="com.alibaba.cloud.products.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\alibaba-cloud\alibaba-cloud-parent\alibaba-cloud-common\src\main\java\response" />
+      <recent name="D:\workspace\alibaba-cloud\alibaba-cloud-parent\alibaba-cloud-common\src\main\java\utils" />
       <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-sentinel\src\main\resources" />
       <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-config\src\main\resources" />
       <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-users\src\main\resources" />
-      <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-products\src\main\resources" />
-      <recent name="D:\project\alibaba-cloud-parent\alibaba-cloud-nacos\src\main\java\com\alibaba\cloud\nacos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -64,7 +160,21 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SentinelApplication">
+  <component name="RunManager">
+    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alibaba-cloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.cloud.gateway.GateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alibaba.cloud.message" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.cloud.message.MessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="alibaba-cloud-nacos" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.cloud.nacos.NacosApplication" />
@@ -85,19 +195,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="alibaba-cloud-sentinel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alibaba.cloud.sentinel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.cloud.sentinel.SentinelApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="alibaba-cloud-users" />
       <extension name="coverage">
@@ -113,13 +210,13 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.NacosApplication" />
+      <item itemvalue="Spring Boot.GateWayApplication" />
+      <item itemvalue="Spring Boot.MessageApplication" />
       <item itemvalue="Spring Boot.ProductsApplication" />
       <item itemvalue="Spring Boot.UsersApplication" />
-      <item itemvalue="Spring Boot.SentinelApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SentinelApplication" />
         <item itemvalue="Spring Boot.UsersApplication" />
         <item itemvalue="Spring Boot.ProductsApplication" />
       </list>
@@ -141,96 +238,234 @@
       <workItem from="1645236199772" duration="5220000" />
       <workItem from="1645422960983" duration="6617000" />
       <workItem from="1645430226275" duration="4741000" />
+      <workItem from="1645436711027" duration="211000" />
+      <workItem from="1645771869865" duration="852000" />
+      <workItem from="1646018529287" duration="599000" />
+      <workItem from="1646038671577" duration="1184000" />
+      <workItem from="1646101952375" duration="1058000" />
+      <workItem from="1647227142891" duration="16000" />
+      <workItem from="1647227273767" duration="21000" />
+      <workItem from="1647227315646" duration="27000" />
+      <workItem from="1647229052007" duration="3000" />
+      <workItem from="1647229600558" duration="2000" />
+      <workItem from="1647252986722" duration="733000" />
+      <workItem from="1647313465069" duration="1470000" />
+      <workItem from="1647341252869" duration="571000" />
+      <workItem from="1647415603103" duration="1499000" />
+      <workItem from="1647480987225" duration="219000" />
+      <workItem from="1647483430120" duration="48000" />
+      <workItem from="1647486102536" duration="1227000" />
+      <workItem from="1647510523858" duration="26000" />
+      <workItem from="1647515034587" duration="594000" />
+      <workItem from="1647571569861" duration="52000" />
+      <workItem from="1647573718364" duration="597000" />
+      <workItem from="1647585106773" duration="3000" />
+      <workItem from="1647591847314" duration="595000" />
+      <workItem from="1649569915522" duration="3632000" />
+      <workItem from="1649573624318" duration="514000" />
+      <workItem from="1649574176374" duration="315000" />
+      <workItem from="1649574732495" duration="8240000" />
+      <workItem from="1650088909041" duration="11941000" />
+      <workItem from="1651473982760" duration="10028000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot整合MQ">
+      <created>1650089133112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650089133112</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="springboot整合MQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot整合MQ" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="96" key="#Inspections" timestamp="1645171397391">
+    <state x="395" y="96" key="#Inspections" timestamp="1649578215920">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1645171397391" />
-    <state x="249" y="0" key="#Project_Structure" timestamp="1645432983302">
+    <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1649578215920" />
+    <state x="651" y="279" key="#Notifications" timestamp="1645772227598">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1645432983302" />
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645425700090">
+    <state x="651" y="279" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1645772227598" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1651474509222">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1645425700090" />
-    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1645236487506">
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1651474509222" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651480793690">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1645236487506" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1645168513061">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1651480793690" />
+    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1651477807286">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1645168513061" />
-    <state width="1177" height="355" key="GridCell.Tab.0.bottom" timestamp="1645435456164">
+    <state x="958" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1651477807286" />
+    <state x="249" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1651477727722">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1177" height="355" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
-    <state width="1177" height="355" key="GridCell.Tab.0.center" timestamp="1645435456163">
+    <state x="249" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1651477727722" />
+    <state x="510" y="284" width="516" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1651480482677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1177" height="355" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1645435456163" />
-    <state width="1177" height="355" key="GridCell.Tab.0.left" timestamp="1645435456163">
+    <state x="510" y="284" width="516" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1651480482677" />
+    <state x="478" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1651479749753">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1177" height="355" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1645435456163" />
-    <state width="1177" height="355" key="GridCell.Tab.0.right" timestamp="1645435456164">
+    <state x="478" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1651479749753" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651480268677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1177" height="355" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
-    <state width="1177" height="355" key="GridCell.Tab.1.bottom" timestamp="1645435456164">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1651480268677" />
+    <state width="474" height="466" key="DebuggerActiveHint" timestamp="1649581230862">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1177" height="355" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
-    <state width="1177" height="355" key="GridCell.Tab.1.center" timestamp="1645435456164">
+    <state width="474" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1649581230862" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1650091616081">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1177" height="355" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
-    <state width="1177" height="355" key="GridCell.Tab.1.left" timestamp="1645435456164">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1647340980477" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1650091616081" />
+    <state width="1193" height="382" key="GridCell.Tab.0.bottom" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1177" height="355" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
-    <state width="1177" height="355" key="GridCell.Tab.1.right" timestamp="1645435456164">
+    <state width="1027" height="489" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708939" />
+    <state width="1237" height="392" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1280.689@1920.0.1280.689" timestamp="1647422904810" />
+    <state width="1193" height="382" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.0.center" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1177" height="355" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1645435456164" />
-    <state width="1147" height="269" key="GridCell.Tab.2.bottom" timestamp="1645237957342">
+    <state width="1027" height="489" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708939" />
+    <state width="1237" height="392" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1280.689@1920.0.1280.689" timestamp="1647422904810" />
+    <state width="1193" height="382" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.0.left" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1147" height="269" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1645237957342" />
-    <state width="1147" height="269" key="GridCell.Tab.2.center" timestamp="1645237957342">
+    <state width="1027" height="489" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708939" />
+    <state width="1237" height="392" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1280.689@1920.0.1280.689" timestamp="1647422904810" />
+    <state width="1193" height="382" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.0.right" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1147" height="269" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1645237957342" />
-    <state width="1147" height="269" key="GridCell.Tab.2.left" timestamp="1645237957342">
+    <state width="1027" height="489" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708939" />
+    <state width="1237" height="392" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1280.689@1920.0.1280.689" timestamp="1647422904810" />
+    <state width="1193" height="382" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.1.bottom" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1147" height="269" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1645237957342" />
-    <state width="1147" height="269" key="GridCell.Tab.2.right" timestamp="1645237957342">
+    <state width="1027" height="489" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708940" />
+    <state width="1193" height="382" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.1.center" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1147" height="269" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1645237957342" />
-    <state x="270" y="62" key="SettingsEditor" timestamp="1645168514859">
+    <state width="1027" height="489" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708940" />
+    <state width="1193" height="382" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.1.left" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="270" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1645168514859" />
-    <state x="178" y="78" key="new project wizard" timestamp="1645432533531">
+    <state width="1027" height="489" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708940" />
+    <state width="1193" height="382" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="1193" height="382" key="GridCell.Tab.1.right" timestamp="1651483467051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="178" y="78" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1645432533531" />
+    <state width="1027" height="489" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1651474708940" />
+    <state width="1193" height="382" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1651483467051" />
+    <state width="964" height="303" key="GridCell.Tab.2.bottom" timestamp="1650094699324">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="964" height="303" key="GridCell.Tab.2.bottom/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650094699324" />
+    <state width="580" height="280" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1649582776769" />
+    <state width="964" height="303" key="GridCell.Tab.2.center" timestamp="1650094699324">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="964" height="303" key="GridCell.Tab.2.center/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650094699324" />
+    <state width="580" height="280" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1649582776769" />
+    <state width="964" height="303" key="GridCell.Tab.2.left" timestamp="1650094699324">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="964" height="303" key="GridCell.Tab.2.left/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650094699324" />
+    <state width="580" height="280" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1649582776769" />
+    <state width="964" height="303" key="GridCell.Tab.2.right" timestamp="1650094699324">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="964" height="303" key="GridCell.Tab.2.right/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650094699324" />
+    <state width="580" height="280" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1649582776769" />
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1651480736495">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1651480736495" />
+    <state x="429" y="121" key="NewModule_or_Project.wizard" timestamp="1645772114852">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="429" y="121" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1645772114852" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1649575681935">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1647341008100" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1649575681935" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1650089874912">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1650089874912" />
+    <state x="563" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650089891769">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="563" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1650089891769" />
+    <state x="525" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1649572175186">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="525" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1649572175186" />
+    <state x="93" y="93" width="1350" height="648" key="dock-window-1" timestamp="1649573402676">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="dock-window-1/0.0.1536.834@0.0.1536.834" timestamp="1649573402676" />
+    <state x="499" y="177" key="extract.method.dialog" timestamp="1649578813287">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="177" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1649578813287" />
+    <state x="468" y="120" width="722" height="594" key="find.popup" timestamp="1651482277722">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="468" y="120" width="722" height="594" key="find.popup/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650093235772" />
+    <state x="468" y="120" width="722" height="594" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1651482277722" />
+    <state x="501" y="129" key="git4idea.branch.GitSmartOperationDialog" timestamp="1645772184350">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="501" y="129" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.834@0.0.1536.834" timestamp="1645772184350" />
+    <state x="178" y="78" key="new project wizard" timestamp="1649571574686">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="78" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1649571574686" />
+    <state x="530" y="229" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1647340982000">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="530" y="229" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1647340982000" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1645424465982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1645424465982" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1645262868248">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1650117366073">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/1920.0.1280.689@0.0.1536.834" timestamp="1650117366073" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1645262868248" />
   </component>
   <component name="XDebuggerManager">
@@ -238,8 +473,38 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/controller/UsersController.java</url>
-          <line>32</line>
+          <line>78</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/controller/MessageController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/provider/config/RabbitConfig.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/provider/config/RabbitConfig.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/provider/config/RabbitConfig.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/alibaba.cloud.message/src/main/java/com/alibaba/cloud/message/provider/config/RabbitConfig.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/alibaba-cloud-users/src/main/java/com/alibaba/cloud/users/controller/UsersController.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,22 +7,25 @@ import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 import org.springframework.web.cors.reactive.CorsWebFilter;
 
 /**
- *  跨域配置
- */
+ * @program: alibaba.cloud.gateway
+ * @description: 跨域配置
+ * @author: JianSong Ye
+ * @create: 2022-04-10 15:28
+ **/
 @Configuration
 public class CorsConfig {
 
     @Bean
-    public CorsWebFilter corsWebFilter(){
+    public CorsWebFilter corsWebFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 
         CorsConfiguration corsConfiguration = new CorsConfiguration();
-
+        corsConfiguration.addAllowedOrigin("*");
         corsConfiguration.addAllowedHeader("*");
         corsConfiguration.addAllowedMethod("*");
-        corsConfiguration.addAllowedOrigin("*");
         corsConfiguration.setAllowCredentials(true);
-        source.registerCorsConfiguration("/**",corsConfiguration);
+        corsConfiguration.addExposedHeader("Content-Disposition,Content-Type,Cache-Control");
+        source.registerCorsConfiguration("/**", corsConfiguration);
         return new CorsWebFilter(source);
     }
 }
