@@ -3,15 +3,23 @@ spring:
     allow-bean-definition-overriding: true
   cloud:
     nacos:
-      server-addr: 121.43.225.84:8848
+      server-addr: 192.168.31.126:8848
+      username: nacos
+      password: nacos
 
       config:
-        namespace: 1315a425-a887-4d63-910e-78772cf87e28
+        namespace: cloud-service
         group: DEFAULT_GROUP
         name: product-dev
         file-extension: yaml
       discovery:
-        namespace: 1315a425-a887-4d63-910e-78772cf87e28
+        namespace: cloud-service
         group: DEFAULT_GROUP
         name: service-product
         enabled: true
+
+
+logging:
+  level:
+    com.alibaba.nacos.client.config.impl: INFO
+

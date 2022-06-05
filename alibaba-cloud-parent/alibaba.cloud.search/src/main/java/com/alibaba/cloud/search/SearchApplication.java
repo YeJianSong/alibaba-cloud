@@ -1,20 +1,20 @@
-package com.alibaba.cloud.message;
+package com.alibaba.cloud.search;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * @program: alibaba.cloud.message
- * @description: 消息中心服务
+ * @program: alibaba-cloud-parent
+ * @description: elasticsearch 搜索微服务
  * @author: JianSong Ye
- * @create: 2022-04-10 15:28
+ * @create: 2022-05-15 15:52
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
-public class MessageApplication {
+public class SearchApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MessageApplication.class);
+        SpringApplication.run(SpringApplication.class);
     }
 }

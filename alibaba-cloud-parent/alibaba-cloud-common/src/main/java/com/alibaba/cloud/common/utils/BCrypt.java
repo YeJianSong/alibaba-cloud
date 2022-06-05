@@ -4,7 +4,7 @@
  * @author: JianSong Ye
  * @create: 2022-04-16 21:03
  **/
-package utils;
+package com.alibaba.cloud.common.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.security.SecureRandom;
@@ -647,7 +647,7 @@ public class BCrypt {
 	 * @return	the hashed password
 	 */
 	public static String hashpw(String password, String salt) {
-		utils.BCrypt B;
+		com.alibaba.cloud.common.utils.BCrypt B;
 		String real_salt;
 		byte passwordb[], saltb[], hashed[];
 		char minor = (char)0;
@@ -682,7 +682,7 @@ public class BCrypt {
 
 		saltb = decode_base64(real_salt, BCRYPT_SALT_LEN);
 
-		B = new utils.BCrypt();
+		B = new com.alibaba.cloud.common.utils.BCrypt();
 		hashed = B.crypt_raw(passwordb, saltb, rounds,
 		    (int[])bf_crypt_ciphertext.clone());
 

@@ -1,7 +1,11 @@
 package com.alibaba.cloud.users.service.impl;
 
+import com.alibaba.cloud.users.entity.UserEntity;
+import com.alibaba.cloud.users.mapper.UserMapper;
 import com.alibaba.cloud.users.service.UsersService;
+import com.alibaba.cloud.users.utils.RedisUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -13,6 +17,16 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @Service
 public class UsersServiceImpl implements UsersService {
+
+    @Autowired
+    private UserMapper userMapper;
+
+    @Autowired(required = false)
+    private RedisUtil redisUtil;
+
+
+
+
 
     //定义票的总数
     private int total = 100;
@@ -41,6 +55,13 @@ public class UsersServiceImpl implements UsersService {
                 return name + "通过线程" + Thread.currentThread().getName() + "抢票失败！";
             }
         }
+    }
+
+    @Override
+    public void getData() {
+        UserEntity userEntity = userMapper.selectById(1);
+        redisUtil.set("测试","测试");
+        System.out.println(userEntity);
     }
 
 

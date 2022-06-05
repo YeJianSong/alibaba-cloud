@@ -1,4 +1,4 @@
-package utils;
+package com.alibaba.cloud.common.utils;
 
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;

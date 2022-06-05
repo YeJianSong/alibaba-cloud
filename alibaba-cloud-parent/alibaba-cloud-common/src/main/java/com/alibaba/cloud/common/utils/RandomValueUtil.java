@@ -1,4 +1,4 @@
-package utils;
+package com.alibaba.cloud.common.utils;
 
 /**
  * @program: alibaba.cloud.common
