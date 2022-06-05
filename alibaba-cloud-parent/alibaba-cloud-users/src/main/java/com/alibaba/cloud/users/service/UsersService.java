@@ -10,4 +10,6 @@ public interface UsersService {
     String ticket(String name);
 
 
+    void getData();
+
 }

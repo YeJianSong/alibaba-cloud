@@ -126,4 +126,11 @@ public class UsersController {
     }
 
 
+    @GetMapping("/get-data")
+    public String getDate() {
+        usersService.getData();
+        return "Test AsyncThreadPool Succeed";
+    }
+
+
 }

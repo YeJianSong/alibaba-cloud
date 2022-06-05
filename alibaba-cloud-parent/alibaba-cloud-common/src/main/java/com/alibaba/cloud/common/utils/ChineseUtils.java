@@ -1,4 +1,4 @@
-package utils;
+package com.alibaba.cloud.common.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Random;
@@ -40,7 +40,7 @@ public class ChineseUtils {
     public static String getFixedLengthChinese(int length) {
         String str = "";
         for (int i = length; i > 0; i--) {
-            str = str + utils.ChineseUtils.getChinese();
+            str = str + com.alibaba.cloud.common.utils.ChineseUtils.getChinese();
         }
         return str;
     }

@@ -1,4 +1,4 @@
-package utils;
+package com.alibaba.cloud.common.utils;
 
 import java.io.Serializable;
 import java.util.List;

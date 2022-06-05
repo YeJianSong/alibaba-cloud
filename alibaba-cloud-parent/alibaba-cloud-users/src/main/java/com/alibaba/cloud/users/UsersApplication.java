@@ -1,6 +1,7 @@
 package com.alibaba.cloud.users;
 
 import com.alibaba.cloud.users.config.RibbonRuleConfig;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -20,6 +21,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
+@MapperScan("com.alibaba.cloud.users.mapper")
 public class UsersApplication {
 
     public static void main(String[] args) {

@@ -10,12 +10,12 @@ spring:
       config:
         namespace: cloud-service
         group: DEFAULT_GROUP
-        name: gateway-dev
+        name: search-dev
         file-extension: yaml
       discovery:
         namespace: cloud-service
         group: DEFAULT_GROUP
-        name: service-gateway
+        name: service-search
         enabled: true
 
 logging:
